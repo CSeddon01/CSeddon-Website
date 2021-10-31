@@ -1,3 +1,17 @@
 body {
-    background-color: aqua;
+    background-color: rgb(90, 81, 81);
+    margin: 0%;
+    color:white;
+    
+
 }
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+input {
+    caret-color: red;
+}
+
