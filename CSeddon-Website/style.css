@@ -1,17 +1,42 @@
 body {
-    background-color: rgb(90, 81, 81);
+    background-color: #DADED4;
     margin: 0%;
-    color:white;
-    
-
+    color:#A3BCB6;
 }
-
 
 html {
     scroll-behavior: smooth;
 }
 
-input {
-    caret-color: red;
-}
 
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: #3C403D;
+}
+#main > nav {
+  order: -1;
+}
+header, footer {
+  background: #39603D;
+  height: 20vh;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
