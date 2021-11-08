@@ -1,4 +1,1 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-
-document.querySelector("body").appendChild(h2);
+document.getElementsByTagName("h1")[0].style.fontSize = "3vw";

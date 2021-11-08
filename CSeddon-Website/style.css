@@ -1,23 +1,23 @@
+/* color scheme: #051622, #1BA098, #DEB992 */
+
 body {
-    background-color: #DADED4;
-    margin: 0%;
-    color:#A3BCB6;
+  font-family: system-ui;
+  background: #051622;
+  color: #1BA098;
+  text-align: left; 
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-
 * {
   box-sizing: border-box; 
 }
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  margin: 0;
-}
+
 #main {
   display: flex;
   flex: 1;
@@ -28,13 +28,13 @@ body {
 #main > nav, 
 #main > aside {
   flex: 0 0 20vw;
-  background: #3C403D;
+  background: #051622;
 }
 #main > nav {
   order: -1;
 }
 header, footer {
-  background: #39603D;
+  background:#051622;
   height: 20vh;
 }
 header, footer, article, nav, aside {
