@@ -1,9 +1,16 @@
-/* color scheme: #051622, #1BA098, #DEB992 */
+/* color scheme  */
+:root {
+  --primary-color: #051622;
+  --secondary-color: #1BA098;
+  --tertiary-color: #DEB992;
+}
+
+* {
+  box-sizing: border-box; 
+}
 
 body {
-  font-family: system-ui;
-  background: #051622;
-  color: #1BA098;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left; 
   display: flex;
   min-height: 100vh;
@@ -14,10 +21,7 @@ html {
     scroll-behavior: smooth;
 }
 
-* {
-  box-sizing: border-box; 
-}
-
+/* Main section start */
 #main {
   display: flex;
   flex: 1;
@@ -26,26 +30,27 @@ html {
   flex: 1;
 }
 #main > section, 
-#main > nav {
+nav {
   flex: 0 0 20vw;
-  background: #051622;
 }
 #main > section {
   order: -1;
 }
+/* Main section end
+Header and footer section start */
+
 header, footer {
-  background:#051622;
   height: 20vh;
 }
 header, footer, article, nav, section {
   padding: 1em;
 }
 
-
-* {box-sizing:border-box}
+/* Header and footer ending
+Slideshow :start */
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 400px;
   position: relative;
   margin: auto;
 }
@@ -61,7 +66,7 @@ header, footer, article, nav, section {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: var(--tertiary-color);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -79,8 +84,8 @@ header, footer, article, nav, section {
 }
 
 .text {
-  color: #1BA098;
-  background-color: #051622;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
