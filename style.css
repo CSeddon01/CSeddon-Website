@@ -7,18 +7,18 @@
 
 * {
   box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left; 
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-html {
-    scroll-behavior: smooth;
+  /* text-align: left;  */
+  /* display: flex; */
+  /* min-height: 100vh; */
+  /* flex-direction: column; */
 }
 
 /* Main section start */
@@ -26,16 +26,16 @@ html {
   display: flex;
   flex: 1;
 }
-#main > article {
+#main  article {
   flex: 1;
 }
-#main > section, 
+/* #main > section, 
 nav {
-  flex: 0 0 20vw;
-}
-#main > section {
+  flex: 0 0 20vw; */
+/* } */
+/* #main > section {
   order: -1;
-}
+} */
 /* Main section end
 Header and footer section start */
 
@@ -50,6 +50,7 @@ header, footer, article, nav, section {
 Slideshow :start */
 
 .slideshow-container {
+  border: 3px solid var(--primary-color);
   max-width: 400px;
   position: relative;
   margin: auto;
