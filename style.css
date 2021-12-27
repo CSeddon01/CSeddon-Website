@@ -62,16 +62,7 @@ header nav:hover {
   flex: 1;
 }
 
-
-/* #main > section, 
-  
-/* #main > section {
-  order: -1;
-} */
-/* Main section end
-Header and footer section start */
-
-header, footer {
+header {
   z-index: 9999;
   border-radius: 25px;
   border: 3px solid var(--primary-color);
@@ -161,4 +152,26 @@ Slideshow :start */
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* Contact Me Form section starts */
+
+.form {
+  box-shadow: 0 0 10px var(--secondary-color);
+  border: 3px solid var(--primary-color);
+  background-color:  var(--secondary-color);
+  border-radius: 15px;
+  padding: 20px;
+  color: var(--primary-color);
+  width: 40%;
+  margin: 3.5%;
+}
+
+.button {
+  color: bold;
+  font-size: large;
+} 
+
+.button:hover {
+  background-color: var(--tertiary-color);  
 }
