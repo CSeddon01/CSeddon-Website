@@ -11,14 +11,46 @@
   padding: 0;
 }
 
-body {
+.intro {
   background-color: var(--secondary-color);
   color: var(--primary-color);
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
   font-family: Arial, Helvetica, sans-serif;
-  /* text-align: left;  */
+  border-color: 3px solid var(--primary-color);
+}
+
+header nav {
+  margin: 7px 0;
+  font-weight: bolder;
+}
+  
+header nav:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
   /* display: flex; */
   /* min-height: 100vh; */
-  /* flex-direction: column; */
+  /* flex-direction: column;
+} */
+
+.gradient {
+  background-image: url('images/Flower_background.jpg');
+  color: var(--primary-color);
+  background-attachment: fixed;
+  background-position: 80%;
+  background-size: cover;
+  background-position: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px 35px;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
 }
 
 /* Main section start */
@@ -29,10 +61,10 @@ body {
 #main  article {
   flex: 1;
 }
+
+
 /* #main > section, 
-nav {
-  flex: 0 0 20vw; */
-/* } */
+  
 /* #main > section {
   order: -1;
 } */
@@ -40,6 +72,9 @@ nav {
 Header and footer section start */
 
 header, footer {
+  z-index: 9999;
+  border-radius: 25px;
+  border: 3px solid var(--primary-color);
   height: 20vh;
 }
 header, footer, article, nav, section {
@@ -51,6 +86,7 @@ Slideshow :start */
 
 .slideshow-container {
   border: 3px solid var(--primary-color);
+  border-radius: 25px;
   max-width: 400px;
   position: relative;
   margin: auto;
