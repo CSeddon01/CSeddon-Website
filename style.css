@@ -1,6 +1,6 @@
 /* color scheme  */
 :root {
-  --primary-color: #6666;
+  --primary-color: rgba(15, 15, 15, 0.4);
   --secondary-color: #1BA098;
   --tertiary-color: #cccc;
 }
@@ -9,9 +9,15 @@
   box-sizing: border-box; 
 }
 
+body { 
+  background: url(images/Background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
   margin: 0 auto;
-  position: relative;
 }
 
 div {
@@ -29,7 +35,7 @@ div {
   position: fixed;
   width: 100%;
   overflow: hidden;
-  z-index: 999;
+  z-index: 0;
 }
 ul {
   display: block;
@@ -47,6 +53,13 @@ li {
   padding: 2px;
   font-size: 1em;
   color: #ffff;
+  text-decoration: none;
+}
+
+li a {
+  display: inline;
+  color: var(--tertiary-color);
+  padding: 8px 16px;
   text-decoration: none;
 }
 
@@ -78,7 +91,6 @@ li a:hover {
 
 .name h2 {
   margin: 0 auto;
-  padding: 0.8em;
 }
 
 a {
@@ -164,28 +176,18 @@ body::after {
 /* Media Queries */
 
 @media screen and (max-width: 980px) {
-  .menuDrop {
+  .menuBar {
       display: none;
   }
- 
 }
-
 @media screen and (max-width: 768px) {
- .menuDrop {display: none;
+ .menuBar {display: none;
   }
-  .aboutBodyPortfolio {
-      margin-block-start: 5rem;
-  }
-
-  .aboutBody {
-      margin-block-end: 3rem;
-  }
-  
 }
-
 @media screen and (max-width: 640px) {
   .topBanner {
       position: static;
       width: 100%;
       overflow: initial;
   }
+}
