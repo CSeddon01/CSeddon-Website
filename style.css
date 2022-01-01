@@ -17,15 +17,15 @@ header {
   font-weight: bolder;
 }
   
-header nav:hover {
+header .topBanner:hover {
   background: var(--primary-color);
   color: var(--secondary-color);
   border-radius: 15px;
   text-shadow: none;
 }
   
-.gradient {
-  background-image: url('images/Flower_background.jpg');
+.topBanner {
+  background-image: url('images/DarkGreyBackground.png');
   color: var(--primary-color);
   background-attachment: fixed;
   background-position: 80%;
