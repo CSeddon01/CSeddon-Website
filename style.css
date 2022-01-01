@@ -1,7 +1,7 @@
 /* color scheme  */
 :root {
   --primary-color: rgba(15, 15, 15, 0.4);
-  --secondary-color: #1BA098;
+  --secondary-color: #D5F3FE;
   --tertiary-color: #cccc;
 }
 
@@ -78,7 +78,7 @@ li a:hover {
 }
 
 .name {
-  color: #ffff;
+  color: var(--primary-color);
   font-family: cursive;
   font-size: 1.3rem;
   background-color: var(--secondary-color);
