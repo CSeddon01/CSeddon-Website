@@ -12,7 +12,6 @@
 </head>
 <body background="images/Background.jpg">
   
-  <header>
   <div class="topBanner">
     <ul class="menuBar">
       <li><a href="index.html">About</li>
@@ -21,95 +20,36 @@
         <li>|</li>
       <li><a href="contact.html">Contact</li>
         <li>|</li>
+      <li><a href="reviews.html">Reviews</a></li>
+    </ul>
+
   <div class="name"><h2>Christine Seddon</h2></div>
-   
   </div>
+
+  <div class="menuDrop">
+    <ul class="menuDrop">
+        <li><a href="index.html">About</a></li>
+        <li> | </li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li> | </li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
   <div class="intro">
-    <p>Christy is currently studying programming at the University of Texas in Austin, Texas with the goal of being able to help more small businesses with the start-up process. With a strong background in finance and startups, Christy will be able to help your business from the ground up to become a solid company from the beginning.  Her services include accounting, human resources, full-stack programming for your website, and years of experience to help you succeed at making your dreams a profitable business.  
-    </p>
-    </div>
-  </header>
-<main id="main">
-    <section>
-      <h1>Work</h1>
-      <p>
-        <a href="https://github.com/CSeddon01/run-buddy">Run Buddy</a> 
-      </p>
-    </section>
-<!-- Reviews slideshow start -->
-  <article>
-    <div class="slideshow-container">
-      <h2 style="text-align: center;">Reviews</h2>
-      <div class="mySlides fade">
-        <img src="images/Congress.JPG" style="width: 100%;" alt="Cat stealing water">
-        <div class="text"><strong> &#127800; Give, even if you only have a little. &#127800;</strong></div>
-      </div>  
-
-      <div class="mySlides fade">
-        <img src="images/Nyla.jpg" style="width: 100%;" alt="Cute dog with bad breath">
-        <div class="text"><q><em>Christy is the best. She's kinda like seeing Willie Nelson perform live. Never disappoints.</em></q></div>
-      </div>  
-
-      <div class="mySlides fade">
-        <img src="images/RocketMan.jpg" style="width: 100%;" alt="Cat with too many toes">
-        <div class="text"><q>Christy is so purr-fessional & paws-itive! 🐾</q></div>
-      </div>  
-
-      <div class="mySlides fade">
-        <img src="images/Titus.jpg" style="width: 100%;" alt="Cat with attitude problems">
-        <div class="text"> It's dangerous to go alone! Take this 👅 </div>
-      </div>  
-
-      <div class="mySlides fade">
-        <img src="images/Lucy.jpg" style="width: 100%;" alt="Cute guinea pig eating">
-        <div class="text"><q> Christy is one in a melon 🍈 </q></div>
-      </div>  
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-  <br>
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-      <span class="dot" onclick="currentSlide(5)"></span>
-    </div>
-</article>
-  </main>
-<!-- Reviews slideshow end -->
-<!-- How to reach me section start -->
- 
-  <h2>Contact Me</h2>
-    <nav><script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="christine-seddon-2a97a2158" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/christine-seddon-2a97a2158?trk=profile-badge"></a></div>
-     <br> 
-     <a href="https://github.com/CSeddon01" target="_blank">See my work at Github</a>
-     <br>
-      <a href="https://twitter.com/@coderchristy?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @coderchristy</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>         
-    </nav>
+    <div>
+      <h2 id="aboutMe"></h2>
+      <hr />
+     </div>
+  <div class="aboutBody">
+    <img id="profilePic" src="images/CSeddon.JPG">
+    <p>Christy is currently studying programming at the University of Texas in Austin, Texas with the goal of being able to help more small businesses with the start-up process. With a strong background in finance and startups, Christy will be able to help your business from the ground up to become a solid company from the beginning.</p>
+    <p>  Her services include accounting, human resources, full-stack programming for your website, and years of experience to help you succeed at making your dreams a profitable business. </p> 
+    <hr />
   </div>
-  <!-- How to reach me section end -->
-  <!-- Contact me form section start -->
-  <footer class="form">
-    <h3>Message Me</h3>
-    <form
-    action="https://formspree.io/f/moqrvjey"
-    method="POST"
-  >
-    <label for="email">Your email:
-      <input type="email" name="_replyto">
-    </label>
-    <br>
-    <label>
-      Your message:
-      <textarea name="message"></textarea>
-    </label>
-    <button class="button" type="submit">Send</button>
-  </form> 
-  </footer>
-
-  <!-- Contact me section ends -->
+<footer>
+  <footer class="bottomBanner" src="images/DarkGreyBackground.png">
+</footer>
 
   <script src="script.js"></script>
 </body>

@@ -7,173 +7,21 @@
 
 * {
   box-sizing: border-box; 
-  margin: 0;
-  padding: 0;
-}
-
-
-header {
-  margin: 7px 0;
-  font-weight: bolder;
-}
-  
-header .topBanner:hover {
-  background: var(--primary-color);
-  color: var(--secondary-color);
-  border-radius: 15px;
-  text-shadow: none;
-}
-  
-.topBanner {
-  background-image: url('images/DarkGreyBackground.png');
-  color: var(--primary-color);
-  background-attachment: fixed;
-  background-position: 80%;
-  background-size: cover;
-  background-position: center;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 20px 35px;
-  display: flex;
-  justify-content: right;
-  flex-wrap: wrap;
-  list-style-type: disc;
-}
-
-
-.intro {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  display: flex;
-  padding: auto;
-  font-weight: bold;
-  margin: 0;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  border-color: 3px solid var(--primary-color);
-}
-
-
-/* Main section start */
-#main {
-  display: flex;
-  flex: 1;
-}
-#main  article {
-  flex: 1;
-}
-
-header {
-  z-index: 9999;
-  border-radius: 25px;
-  border: 3px solid var(--primary-color);
-  height: 20vh;
-}
-header, footer, article, nav, section {
-  padding: 1em;
-}
-
-/* Header and footer ending
-Slideshow :start */
-
-.slideshow-container {
-  border: 3px solid var(--primary-color);
-  border-radius: 25px;
-  max-width: 400px;
+  margin: 0 auto;
   position: relative;
-  margin: auto;
+  display: block;
 }
 
-.mySlides {
-  display: none;
+ul {
+  display: block;
+  margin: 1em 1em 0px 0px;
+  padding-inline-start: 40px;
 }
 
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: var(--tertiary-color);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.text {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+li {
+  display: inline;
   text-align: center;
-}
-
-.dot {
-  cursor: grab;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* Contact Me Form section starts */
-
-.form {
-  box-shadow: 0 0 10px var(--secondary-color);
-  border: 3px solid var(--primary-color);
-  background-color:  var(--secondary-color);
-  border-radius: 15px;
-  padding: 20px;
-  color: var(--primary-color);
-  width: 40%;
-  margin: 3.5%;
-}
-
-.button {
-  color: bold;
-  font-size: large;
-} 
-
-.button:hover {
-  background-color: var(--tertiary-color);  
+  padding: 2px;
+  font-size: 1em;
+  color: var(--secondary-color);
 }
