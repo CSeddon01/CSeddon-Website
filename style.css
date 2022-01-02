@@ -176,12 +176,15 @@ body::after {
 /* Media Queries */
 
 @media screen and (max-width: 980px) {
-  .menuBar {
+  .menuDrop {
       display: none;
   }
 }
 @media screen and (max-width: 768px) {
- .menuBar {display: none;
+ .menuDrop {display: none;
+  }
+  .aboutBody {
+    margin-block-end: 3rem;
   }
 }
 @media screen and (max-width: 640px) {
@@ -190,4 +193,23 @@ body::after {
       width: 100%;
       overflow: initial;
   }
+  .name {
+    margin: auto;
+    padding: .4rem;
+}
+
+.menuBar {
+    display: none;
+}
+
+.menuDrop {
+    display: block;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    background-color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    padding: .2rem;
+}
 }
