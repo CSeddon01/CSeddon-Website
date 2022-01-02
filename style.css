@@ -301,14 +301,24 @@ body::after {
   color: var(--primary-color);
 }
 
-.portCount {
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#column {
+  flex-basis: 1;
+  width: 30%;
+}
+.runBuddy, .counter, .horiseon {
   padding: 5%;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--tertiary-color);
   width: 100%;
 }
 
-#run-buddy, #tip-counter {
+#run-buddy, #tip-counter, #horiseonPage {
   position: relative;
     width: 225px;
     margin-bottom: 30px;
