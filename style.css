@@ -79,16 +79,28 @@ li a:hover {
   margin-right: 10%;
 }
 
+.menuDrop {
+  display: block;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  background-color: #ffffff;
+  list-style-type: none;
+  margin: 0;
+  padding: .4rem;
+}
+
 .name {
   color: var(--primary-color);
   font-family: cursive;
   font-size: 1.3rem;
   background-color: var(--secondary-color);
+  margin: auto;
   margin-left: 10%;
   width: fit-content;
   height: 100%;
   text-align: center;
-  padding: 0.4em;
+  padding: 0.4rem;
 }
 
 .name h2 {
@@ -96,12 +108,17 @@ li a:hover {
 }
 
 a {
-  color: #ffff;
+  color: var(--primary-color);
   font-size: 1.2em;
   text-decoration: none;
 }
 
-/* Main Body */
+a:hover {
+  color: var(--tertiary-color);
+}
+
+
+/* Main Body About Me Page */
 
 hr {
   width: 95%;
@@ -135,16 +152,6 @@ hr {
   padding-bottom: 2rem;
 }
 
-.aboutBodyPortfolio {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-block-start: 5em;
-  overflow: hidden;
-  background-color: #ffffff;
-  border: 0.1px solid var(--tertiary-color);
-  margin-block-end: 5%;
-}
-
 #mainPara {
   float: left;
   text-align: justify;
@@ -154,6 +161,7 @@ hr {
   margin: 10px 10px;
 }
 
+/* End About Me Page */
 /* footer */
 
 .bottomBanner {
@@ -173,7 +181,7 @@ body::after {
   display: block;
   height: 50px;
 }
-
+/* End Footer */
 /* Media Queries */
 
 @media screen and (min-width: 992px) {
@@ -194,23 +202,117 @@ body::after {
       width: 100%;
       overflow: initial;
   }
-  .name {
-    margin: auto;
-    padding: .4rem;
+}
+/* End Media Queries */
+
+/* Reviews Slideshow start  */
+
+.slideshow-container {
+  border: 3px solid var(--primary-color);
+  border-radius: 25px;
+  max-width: 400px;
+  position: relative;
+  margin: auto;
 }
 
-.menuBar {
-    display: none;
+.mySlides {
+  display: none;
 }
 
-.menuDrop {
-    display: block;
-    width: 100%;
-    align-self: center;
-    text-align: center;
-    background-color: #ffffff;
-    list-style-type: none;
-    margin: 0;
-    padding: .2rem;
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: var(--tertiary-color);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: grab;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Reviews Slideshow end */
+/* Portfolio Start  */
+
+.mainPort {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-block-start: 5em;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 0.1px solid var(--tertiary-color);
+  margin-block-end: 5%;
+}
+.mainPort h2 {
+  color: var(--primary-color);
+}
+
+.portCount {
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--tertiary-color);
+  width: 100%;
+}
+
+#run-buddy, #tip-counter {
+  position: relative;
+    width: 225px;
+    margin-bottom: 30px;
+}
+
+ 
+
