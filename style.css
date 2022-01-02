@@ -147,14 +147,12 @@ hr {
 
 #mainPara {
   float: left;
+  text-align: justify;
   color: var(--primary-color);
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px 10px;
 }
-
-
-
 
 /* footer */
 
@@ -178,7 +176,7 @@ body::after {
 
 /* Media Queries */
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 992px) {
   .menuDrop {
       display: none;
   }
