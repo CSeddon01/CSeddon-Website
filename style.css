@@ -140,20 +140,21 @@ hr {
 }
 
 #aboutMe {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   padding-left: 20px; 
   padding-top: 15px;
   padding-bottom: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.aboutBody {
+.aboutBody, .mainPort, .form, .slideshow-container {
   margin-left: 10%;
   margin-right: 10%;
   margin-block-start: 7rem;
   overflow: hidden;
   background-color: #ffffff;
-  border: 0.1px solid var(--tertiary-color);
+  border: 3px solid var(--primary-color);
+  border-radius: 25px;
   padding-bottom: 2rem;
 }
 
@@ -215,11 +216,9 @@ body::after {
 /* Reviews Slideshow start  */
 
 .slideshow-container {
-  border: 3px solid var(--primary-color);
   border-radius: 25px;
   max-width: 400px;
   position: relative;
-  margin: auto;
 }
 
 .mySlides {
@@ -295,15 +294,6 @@ body::after {
 /* Reviews Slideshow end */
 /* Portfolio Start  */
 
-.mainPort, .form, .slideshow-container {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-block-start: 5em;
-  overflow: hidden;
-  background-color: #ffffff;
-  border: 0.1px solid var(--tertiary-color);
-  margin-block-end: 5%;
-}
 .mainPort h2, .form h2 {
   color: var(--primary-color);
 }
@@ -332,21 +322,12 @@ body::after {
 /* Portfolio ends */
  /* Contact Me Page Starts */
 
- .form {
-  box-shadow: 0 0 10px var(--secondary-color);
-  border: 3px solid var(--primary-color);
-  background-color:  var(--secondary-color);
+ .form, .button {
   border-radius: 15px;
   padding: 20px;
-  color: var(--primary-color);
-  width: 40%;
-  margin: 3.5%;
-}
-
-.button {
-  color: bold;
   font-size: large;
-} 
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .button:hover {
   background-color: var(--tertiary-color);  
