@@ -332,13 +332,23 @@ body::after {
 /* Portfolio ends */
  /* Contact Me Page Starts */
 
- form {
-  position : relative;
-  width  : 740px;
-  height : 300px;
-  margin : 0 auto;
-  padding: 1em;
-  box-sizing: border-box;
- }
+ .form {
+  box-shadow: 0 0 10px var(--secondary-color);
+  border: 3px solid var(--primary-color);
+  background-color:  var(--secondary-color);
+  border-radius: 15px;
+  padding: 20px;
+  color: var(--primary-color);
+  width: 40%;
+  margin: 3.5%;
+}
 
+.button {
+  color: bold;
+  font-size: large;
+} 
+
+.button:hover {
+  background-color: var(--tertiary-color);  
+}
  /* Contact Me Page Ends */
