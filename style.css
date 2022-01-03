@@ -25,7 +25,6 @@ body {
 div {
   display: block;
 }
-
 /* Top banner */
 
 .topBanner {
@@ -39,6 +38,7 @@ div {
   overflow: hidden;
   z-index: 0;
 }
+
 ul {
   display: block;
   list-style-type: disc;
@@ -288,7 +288,7 @@ body::after {
 /* Reviews Slideshow end */
 /* Portfolio Start  */
 
-.mainPort {
+.mainPort, .form {
   margin-left: 10%;
   margin-right: 10%;
   margin-block-start: 5em;
@@ -297,7 +297,7 @@ body::after {
   border: 0.1px solid var(--tertiary-color);
   margin-block-end: 5%;
 }
-.mainPort h2 {
+.mainPort h2, .form h2 {
   color: var(--primary-color);
 }
 
@@ -308,7 +308,6 @@ body::after {
 }
 
 #column {
-  flex-basis: 1;
   width: 30%;
 }
 .runBuddy, .counter, .horiseon {
@@ -323,6 +322,6 @@ body::after {
     width: 225px;
     margin-bottom: 30px;
 }
-
+/* Portfolio ends */
  
 
