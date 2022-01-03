@@ -39,6 +39,11 @@ div {
   z-index: 0;
 }
 
+.topBanner:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
 ul {
   display: block;
   list-style-type: disc;
@@ -195,6 +200,8 @@ body::after {
   .aboutBody {
     margin-block-end: 3rem;
   }
+  .name { display: none;
+  }
 }
 @media screen and (max-width: 640px) {
   .topBanner {
@@ -307,7 +314,7 @@ body::after {
   flex-wrap: wrap;
 }
 
-#column {
+.column {
   width: 30%;
 }
 .runBuddy, .counter, .horiseon {
@@ -319,9 +326,19 @@ body::after {
 
 #run-buddy, #tip-counter, #horiseonPage {
   position: relative;
-    width: 225px;
-    margin-bottom: 30px;
+  width: 225px;
+  margin-bottom: 30px;
 }
 /* Portfolio ends */
- 
+ /* Contact Me Page Starts */
 
+ form {
+  position : relative;
+  width  : 740px;
+  height : 300px;
+  margin : 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+ }
+
+ /* Contact Me Page Ends */
