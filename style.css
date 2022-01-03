@@ -269,7 +269,7 @@ body::after {
   background-color: #717171;
 }
 
-.fade {
+.Fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -288,7 +288,7 @@ body::after {
 /* Reviews Slideshow end */
 /* Portfolio Start  */
 
-.mainPort, .form {
+.mainPort, .form, .slideshow-container {
   margin-left: 10%;
   margin-right: 10%;
   margin-block-start: 5em;
