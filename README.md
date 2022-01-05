@@ -5,7 +5,7 @@ A responsive website that introduces myself and displays my projects that I've w
 ##Website
 https://cseddon01.github.io/CSeddon-Website/
 
-![screenshot](assets\css\images\Screenshot.JPG)
+![screenshot](assets\css\images\Screenshot.JPG?raw=true)
 
 ## Built With
 * HTML
