@@ -1,3 +1,5 @@
+// Javascript for Reviews Page: Slideshow 
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

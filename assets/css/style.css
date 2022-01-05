@@ -5,6 +5,7 @@
   --tertiary-color: #cccc;
 }
 
+/* Body and div styles */
 * {
   box-sizing: border-box; 
 }
@@ -25,7 +26,7 @@ body {
 div {
   display: block;
 }
-/* Top banner */
+/* Top banner for all pages */
 
 .topBanner {
   background-color: var(--primary-color);
@@ -123,7 +124,7 @@ a:hover {
 }
 
 
-/* Main Body About Me Page */
+/* Main Body on Index Page */
 
 hr {
   width: 95%;
@@ -167,7 +168,7 @@ hr {
   margin: 10px 10px;
 }
 
-/* End About Me Page */
+/* End Index Page */
 /* footer */
 
 .bottomBanner {
@@ -213,7 +214,7 @@ body::after {
 }
 /* End Media Queries */
 
-/* Reviews Slideshow start  */
+/* Reviews Page Slideshow start  */
 
 .slideshow-container {
   border-radius: 25px;
@@ -291,8 +292,8 @@ body::after {
   from {opacity: .4}
   to {opacity: 1}
 }
-/* Reviews Slideshow end */
-/* Portfolio Start  */
+/* Reviews Page Slideshow end */
+/* Portfolio Page Start  */
 
 .mainPort h2, .form h2 {
   color: var(--primary-color);
@@ -319,7 +320,7 @@ body::after {
   width: 225px;
   margin-bottom: 30px;
 }
-/* Portfolio ends */
+/* Portfolio Page ends */
  /* Contact Me Page Starts */
 
  .form, .button {
