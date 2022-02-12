@@ -1,8 +1,10 @@
-# Christine Seddon Portfolio Website
+## Christine Seddon Portfolio Website
+
 ## Purpose
+
 A responsive website that introduces myself and displays my projects that I've worked on and how to contact me.
 
-##Website
+## Website
 https://cseddon01.github.io/CSeddon-Website/
 
 ![Screenshot](https://user-images.githubusercontent.com/89155206/148270581-a1f67116-ff28-4164-9001-7f7fa2f3bce2.JPG)
@@ -21,7 +23,8 @@ I'm a full stack developer and business manager for small businesses.  I'm based
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/coderchristy)
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+
+Javascript, HTML, CSS, jquery, Tailwinds CSS, Bootstrap
 
 ## Contribution
 Made with ❤️ by Christy Seddon
