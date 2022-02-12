@@ -315,7 +315,7 @@ body::after {
   width: 100%;
 }
 
-#run-buddy, #tip-counter, #horiseonPage {
+#run-buddy, #tip-counter, #horiseonPage, #Scheduler {
   position: relative;
   width: 225px;
   margin-bottom: 30px;
